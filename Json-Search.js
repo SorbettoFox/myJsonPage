@@ -29,11 +29,13 @@ function findWithJSON() {
             }
             document.getElementById("information").innerHTML += " " + "<br>";
         }
-    else
-        if (splitQuery.length == 2) {
-            for (let x = 0; i < myNames.length; x++) {
-            }
+    //else optional search with two names
+        //if (splitQuery.length == 2) {
+            //for (let x = 0; i < myNames.length; x++) {
+            //}
         }
+    if(matchCount == 0) {
+        document.getElementById("information").innerHTML == "No match was found.";
     }
 
 }
